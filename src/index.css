@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+:root{ --paper:#FFFCF5; --paper2:#FDF6E3; --line:#E8E0C8; --ink:#1A1A18; --muted:#5C5A54; }
+body{ font-family:'DM Sans',system-ui,sans-serif; background:var(--paper); color:var(--ink); }
+.font-caveat{ font-family:'Caveat',cursive; }
+.card{ @apply bg-white border border-line rounded-[14px] p-[14px] shadow-[2px_3px_0_#E8E0C8] cursor-pointer transition hover:translate-y-[-2px] hover:shadow-[3px_5px_0_#E8E0C8]; }
+.card-stripe{ @apply h-[6px] rounded-full -m-[14px] mb-3; }
